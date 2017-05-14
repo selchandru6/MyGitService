@@ -1,4 +1,5 @@
-﻿<input type="text" (keyup)="onKeyup($event)" />
+﻿<h5>Please Enter a GitHub User id for search :</h5>
+<input type="text" (keyup)="onKeyup($event)" />
 <button (click)="getUsers()">search</button>
 <p>{{searchCount}}</p>
 <ol *ngIf="searchResult">
